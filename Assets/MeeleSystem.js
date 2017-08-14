@@ -3,12 +3,12 @@
 
 var theDammage : int = 50;
 var distance : float;
-var maxDistance : float = 1.5;
-
+var maxDistance : float = 2.5;
+var Weapon : Transform;
 
 function Update() {
 	if(Input.GetButtonDown("Fire1")) {
-		GetComponent.<Animation>().Play();
+		Weapon.GetComponent.<Animation>().Play("MeeleAttack");
 		var hit : RaycastHit;
 		if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), hit)) {
 			distance = hit.distance;
