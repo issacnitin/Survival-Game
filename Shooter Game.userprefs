@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MeeleSystem.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyLogic.js">
     <Files>
-      <File FileName="Assets/MeeleSystem.js" Line="10" Column="30" />
+      <File FileName="Assets/MeeleSystem.js" Line="6" Column="28" />
       <File FileName="Assets/EnemyLogic.js" Line="15" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
